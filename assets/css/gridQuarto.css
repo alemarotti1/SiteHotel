@@ -1,0 +1,61 @@
+#carouselQuartos{
+	width: 100%;
+	height: auto;
+	margin: auto;
+	
+}
+.wrapper.style1.container{
+	background-color: #003057;
+	
+}
+.noMargin{
+	border:0px;
+	padding:0px;
+	margin: 0px;
+}
+*{
+	border:0px;
+	padding:0px;
+}
+
+.container{
+	display : grid;
+	grid-template-columns: 0.31fr 1.69fr 0.35fr 1fr 0.31fr;
+	grid-template-rows: 0.31fr 0.1fr 1 0.31fr 0.31fr 0.31fr ;
+	justify-content: center;
+	align-content: start;
+	
+	grid-template-areas:
+		" gridHeaderQuartos gridHeaderQuartos gridHeaderQuartos gridHeaderQuartos gridHeaderQuartos "
+		" gridHeaderQuartos gridHeaderQuartos gridHeaderQuartos gridHeaderQuartos gridHeaderQuartos "
+		" itemGridQuartos1 itemGridQuartos1 itemGridQuartos1 itemGridQuartos1 itemGridQuartos1"
+		" . . fill . . "
+		" . itemGridQuartos2 itemGridQuartos2 itemGridQuartos2 . ";
+		
+}
+.gridHeaderQuartos{
+	grid-area: gridHeaderQuartos;
+	border-bottom-style: solid;
+	border-bottom-color: white;
+	
+}
+.itemGridQuartos1{
+	grid-area: itemGridQuartos1;
+	
+}
+.itemGridQuartos2{
+	grid-area: itemGridQuartos2;
+	display: grid;
+	align-self: center;
+}
+
+.fill{
+	grid-area: fill;
+}
+
+/*
+@media screen & (){
+
+
+gaki-ni-modotte-yarinaoshi
+}*/
