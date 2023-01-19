@@ -131,11 +131,12 @@
 				
 				<div id="texto-inicial" class="inner w-100 flex-grow-1 main text-glow" style="padding: 20px 0; ">			
 					<!--p id="recuo">Visite Nova Friburgo e fique no primeiro hotel temático da cidade. <br> Sinta-se em uma casa do interior. Divirta-se com a decoração caipira e seja acolhido por uma família local.</p-->
-					<p id="recuo">Visite Nova Friburgo e <br class="texto-inicial-quebra">viva experiências únicas e inesquecíveis. <br class="texto-inicial-quebra"><br class="texto-inicial-quebra">
-					Fique no Hotel Alê e<br class="texto-inicial-quebra">sinta-se em uma casa do interior.</p>
+					<p id="recuo">
+						Visite Nova Friburgo e <br class="texto-inicial-quebra">viva experiências únicas e inesquecíveis. <br class="texto-inicial-quebra"><br class="texto-inicial-quebra">
+						<!-- Fique no Hotel Alê e<br class="texto-inicial-quebra">sinta-se em uma casa do interior. -->
+					</p>
 					
 				</div>
-				
 				
 				<div class="inner w-100 golden-ratio-maior-quarto pb-0" style="padding: 20px 0;">
 					<div class="mx-auto text-center"><a href="#section-mensagem"><img style="width: 75px;" src="img/down-arrow-white.png"></img></a></div>
